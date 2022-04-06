@@ -65,8 +65,6 @@ export default function App(){
       <button className="PDF">
         <a href="https://docdro.id/f7jXdSz">SAIBA MAIS SOBRE O IMC</a>
       </button>
-
-      
     </div>
   )
 }
