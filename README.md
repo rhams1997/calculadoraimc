@@ -115,10 +115,10 @@ Na pasta styles, apagamos o Home.module.css; A pasta public, deixamos ela vazia;
 
 Em pages, vamos abrir o index.js e limpar tudo. Aqui vai ser criada nossa página com as funções da calculadora.
 1. Importamos o useState (permite adicionar o state do React a um componente de função).
-   Importamos o Head (é basicamente um componente interno que o Next.JS fornece para anexar        elementos, como title e meta tags, ao elemento <head> no documento).
+   Importamos o Head (é basicamente um componente interno que o Next.JS fornece para anexar elementos, como title e meta tags, ao elemento <head> no documento).
  
 2.  Criamos as váriaveins para peso, altura e mensagem.
-2.1 Criaremos a função para calcular o IMC, a primeira vai ser para receber o valor da altura e     fazer a formatação do valor.
+2.1 Criaremos a função para calcular o IMC, a primeira vai ser para receber o valor da altura e fazer a formatação do valor.
     E a segunda função será o calculo do imc, o peso dividido pela altura ao quadrado.
  
 3. Usaremos if e else if para indicar o grau de peso da pessoa e retornar na mensagem.
@@ -127,15 +127,23 @@ Em pages, vamos abrir o index.js e limpar tudo. Aqui vai ser criada nossa págin
 4.1 Criamos a Head com o titulo fazendo tambem o link com o favicon.png da pasta public.
 4.2 Abre a tag img e usamos a imagem da pasta public para embelezar o site.
 
-4.3 Vamos abrir uma div "areaInput" para o usuário informar o peso e altura, e retornar para o calculo do imc.
+![Passo 1 ao 4.2](https://user-images.githubusercontent.com/89039535/162013309-15cdae74-81d7-402b-9076-b062d1536db7.png)
+![Passo 4](https://user-images.githubusercontent.com/89039535/162013699-a3bc57f3-d3c3-4966-b07b-1ef979fe0680.png)
+
+4.3 Vamos abrir uma div "areaInput" para o usuário informar o peso e altura, e retornar para o calculo do IMC.
  
-4.4 Criamos um botão para fazer a chamada da função de calcular o imc.
+4.4 Criamos um botão para fazer a chamada da função de calcular o IMC.
  
 4.5 Usamos uma section para exibir a mensagem do passo 3, onde o if e else if irá passar para o usuário o grau de peso e seu IMC.
+
+4.6 Criaremos mais um botão, redirecionando para um PDF com mais informações sobre o IMC.
+
+![Passo 4 3](https://user-images.githubusercontent.com/89039535/162015068-9b8e79c1-e070-4e3b-89a3-8435d73b9721.png)
 
 5. Agora, vamos estilizar nosso site. Em styles vamos editar o index.css.
 ![index-css](https://user-images.githubusercontent.com/89039535/161989259-9f36b6d8-5536-4b5b-aa42-47f620a06b4a.png)
 
+ 6. E nossa calculadora de IMC está pronta.
 
 
 **Integrantes do grupo:** Luis Gustavo, Rafael Henrique e Yan Silveira.
