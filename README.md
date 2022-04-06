@@ -109,17 +109,33 @@ para criar o projeto:
 ## Com esse comando é possivel ter acesso ao link para ver o resultado do desenvolvimento do projeto pelo navegador.
 ## Copiando e colando a url no navegador.
 
-## Vamos fazer mais algumas instalações:
+## Desenvolvendo nosso código
+Primeiramente, vamos excluir algumas coisas que não iremos utilizar no nosso projeto.
+Na pasta styles, apagamos o Home.module.css; A pasta public, deixamos ela vazia; E na pages, apagamos a pasta api.
 
-## yarn add styled-components 
+Em pages, vamos abrir o index.js e limpar tudo. Aqui vai ser criada nossa página com as funções da calculadora.
+1. Importamos o useState (permite adicionar o state do React a um componente de função).
+   Importamos o Head (é basicamente um componente interno que o Next.JS fornece para anexar        elementos, como title e meta tags, ao elemento <head> no documento).
+ 
+2.  Criamos as váriaveins para peso, altura e mensagem.
+2.1 Criaremos a função para calcular o IMC, a primeira vai ser para receber o valor da altura e     fazer a formatação do valor.
+    E a segunda função será o calculo do imc, o peso dividido pela altura ao quadrado.
+ 
+3. Usaremos if e else if para indicar o grau de peso da pessoa e retornar na mensagem.
 
-## Ela é utilizada para fazer a estilização.
+4. Neste passo vamos criar nosso site. Mas antes vamos adicionar duas imagens na pasta public para usar no site.
+4.1 Criamos a Head com o titulo fazendo tambem o link com o favicon.png da pasta public.
+4.2 Abre a tag img e usamos a imagem da pasta public para embelezar o site.
 
-## A outra instalação é referente a react icons:
+4.3 Vamos abrir uma div "areaInput" para o usuário informar o peso e altura, e retornar para o calculo do imc.
+ 
+4.4 Criamos um botão para fazer a chamada da função de calcular o imc.
+ 
+4.5 Usamos uma section para exibir a mensagem do passo 3, onde o if e else if irá passar para o usuário o grau de peso e seu IMC.
 
-## yarn add react-icons --save
+5. Agora, vamos estilizar nosso site. Em styles vamos editar o index.css.
+![index-css](https://user-images.githubusercontent.com/89039535/161989259-9f36b6d8-5536-4b5b-aa42-47f620a06b4a.png)
 
-## Essa instalação é usada para evitar comflitos em styled components.
 
 
 **Integrantes do grupo:** Luis Gustavo, Rafael Henrique e Yan Silveira.
