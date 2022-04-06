@@ -102,18 +102,18 @@ para criar o projeto:
 
 ![yarnCreate](https://user-images.githubusercontent.com/88038755/161655126-91e80ecc-f289-4bfe-9253-a15bd9db0d3c.jpeg)
 
-Para rodar o projeto, é usado o yarn dev
+## Para rodar o projeto, é usado o yarn dev
 
 ![yarnDev](https://user-images.githubusercontent.com/88038755/161655462-6d85a4e1-7847-458a-947b-eafa5ea230bf.jpeg)
 
-Com esse comando é possivel ter acesso ao link para ver o resultado do desenvolvimento do projeto pelo navegador.
-Copiando e colando a url no navegador.
+## Com esse comando é possivel ter acesso ao link para ver o resultado do desenvolvimento do projeto pelo navegador.
+## Copiando e colando a url no navegador.
 
-Vamos fazer mais algumas instalações:
+## Vamos fazer mais algumas instalações:
 
-yarn add styled-components 
+## yarn add styled-components 
 
-Ela é utilizada para fazer a estilização.
+## Ela é utilizada para fazer a estilização.
 
 ## A outra instalação é referente a react icons:
 
