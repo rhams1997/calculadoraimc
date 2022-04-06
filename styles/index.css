@@ -1,0 +1,89 @@
+body{
+    background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  }
+  
+  .app{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+  .logo{
+      margin: -230px;
+      max-width: 1000px;
+  }
+  
+  .areaInput{
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .areaInput input{
+      width: 100%;
+      margin-bottom: 12px;
+      height: 40px;
+      background-color: #120932;
+      border: 0;
+      border-radius: 15px;
+      color: aliceblue;
+      padding: 0 12px;
+      text-align: center;
+      box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.2);
+    }
+  
+    .areaInput button{
+      width: 100%;
+      margin-bottom: 12px;
+      height: 40px;
+      background-color: #4527a5;
+      border: 0;
+      border-radius: 15px;
+      color: aliceblue;
+      cursor: pointer;
+      transition: transform 0.7s;
+      box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.2);
+    }
+  
+    .areaInput :hover{
+      transform: scale(1.03);
+    }
+  
+    section{
+      color: #222d35;
+      padding: 12px 24px;
+      border-radius: 15px;
+      transition: transform 0.7s;
+    }
+  
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: #120932;
+      text-align: center;
+      margin-bottom: 5px;
+      font-size: 12px;
+  }
+  
+  .PDF{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: #120932;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  a {
+    text-decoration: none;
+    color: aliceblue;
+   }
